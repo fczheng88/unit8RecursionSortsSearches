@@ -103,7 +103,6 @@ public void setRightAngle(double rA)
 
         g2.drawLine((int)oParentBottom.getX(), (int)oParentBottom.getY(), (int)oParentTop.getX(), (int)oParentTop.getY());
         
-        System.out.println("drewparentline");
         this.drawFractal(g2, oParentTop, oParentLength, oTheta, 0, startColor);//new Color(0,122,122));
     }
 }
